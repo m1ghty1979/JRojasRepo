@@ -1,7 +1,7 @@
 node ('nodo_JRojas') {
     stage('Clonacion Repositorio') {
         git branch: 'master',
-            credentialsId: 'githubssh',
+            credentialsId: 'm1ghty1979',
             url: 'git@github.com:ContardoRM/DVWA.git'
 
         sh "ls -lat"
